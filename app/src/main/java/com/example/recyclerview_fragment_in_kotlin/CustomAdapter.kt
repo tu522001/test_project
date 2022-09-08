@@ -26,4 +26,13 @@ class CustomAdapter(private var itemsList: List<String>) : RecyclerView.Adapter<
     override fun getItemCount(): Int {
         return itemsList.size
     }
+
+    //**
+//
+//
+//
+//
+//
+//
+// */
 }
