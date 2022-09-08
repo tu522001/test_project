@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/recylerViewFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        tools:layout="@layout/fragment_recyler_view"
+        android:id="@+id/recylerViewFragment"
+        android:name="com.example.recyclerview_fragment_in_kotlin.RecylerViewFragment"
+        android:label="RecylerViewFragment" />
+</navigation>
